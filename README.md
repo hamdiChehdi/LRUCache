@@ -1,6 +1,6 @@
 # Least Recently Used (LRU) cache
 
-Generic LRUCache class:
+Generic LRUCache implement using DoubleLinkedList + Dictionary to achieve constant time complexity:
 
 - LRUCache(int capacity) Initialize the LRU cache with positive size capacity.
 - int get(int key) Return the value of the key if the key exists, otherwise return -1.
